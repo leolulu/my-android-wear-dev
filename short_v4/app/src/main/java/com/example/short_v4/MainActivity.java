@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         if (switch1_isChecked == true){
             long[] patter = {
                     1000,
-                    500,1000,200,1000,200,1000,200,1000,500,Long.parseLong(editText1_text)*1000,
-                    500,1000,200,1000,200,1000,200,1000,500,Long.parseLong(editText2_text)*1000
+                    300,1000,50,1000,50,1000,50,1000,200,100,200,Long.parseLong(editText1_text)*1000,
+                    300,1000,50,1000,50,1000,50,1000,200,100,200,Long.parseLong(editText2_text)*1000
             };
             Vibrator vibrator = (Vibrator) this.getSystemService(Context.VIBRATOR_SERVICE);
             vibrator.vibrate(patter, 1);
